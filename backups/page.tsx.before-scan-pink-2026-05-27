@@ -382,7 +382,7 @@ function ProductCard({ product }: { product: Product }) {
           aria-label={`Comprar ${product.title}`}
           data-checkout-placeholder="kiwify"
         >
-          <span>Comprar</span>
+          Comprar
         </a>
       </div>
       {product.featured ? <span className="featured-badge">Destaque</span> : null}
